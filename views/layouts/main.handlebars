@@ -17,10 +17,10 @@
         <nav>
           <span><a href="/">home</a></span> 
           {{#if loggedIn}}
-          <a href="/dashboard">dashboard</a>
+          <a href="/views/dashboard.handlebars">dashboard</a>
           <button id="logout" class="btn-no-style">logout</button>
           {{else}}
-          <a href="/public/javascript/login.js">login</a>
+          <a href="/views/login.handlebars">login</a>
           {{/if}}
         </nav>
     </header>
